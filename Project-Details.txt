@@ -1,0 +1,28 @@
+Inquirer:
+Purpose: Inquirer is a library used to create interactive command-line interfaces. It provides a set of prompts that can be used to gather user input in a structured way.
+Use Cases: It's commonly used in CLI applications to ask users questions, confirm actions, or select options from a list.
+
+
+Chalk:
+Purpose: Chalk is a library used to style terminal string output with colors and other text styles.
+Use Cases: It's often used to make command-line output more readable and visually appealing by adding colors, bold text, underlines, etc.
+
+
+Dotenv:
+Purpose: Dotenv is a library that loads environment variables from a .env file into process.env in Node.js applications.
+Use Cases: It's used to manage environment-specific configurations, such as API keys, database connection strings, and other sensitive information, without hardcoding them into the source code.
+
+
+
+###### Gemini API offers a free tier that allows you to use it without cost, subject to certain usage limits. Here's how it works:
+
+✅ Free Access to Gemini API
+You can obtain a Gemini API key for free through Google AI Studio.
+
+The free tier is designed for developers to explore and test the API, providing access to models like Gemini 1.5 Flash.
+Medium
+
+✅ Gemini 2.0 Flash – Free Tier Highlights
+Free Access: You can use Gemini 2.0 Flash without any cost through the Google AI Studio or the Gemini API.
+Rate Limits: The free tier offers up to 1,500 requests per day and 10 requests per minute, sufficient for development and small-scale applications.
+Multimodal Capabilities: Supports inputs like text, code, images, audio, and video, with text outputs, providing flexibility for various use cases.
