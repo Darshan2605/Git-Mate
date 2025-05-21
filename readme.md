@@ -42,13 +42,45 @@ Git-Mate is a Node.js command-line application designed to help users convert na
      ✅We can use "gitmate" command in Powershell- anywhere in our system to start our project.
 
 4. **For Linux OS--- Open Terminal**:
-      In Cloned Folder
+      - Pre-requisites
+      -Make sure the following are installed:
+
+      -Node.js and npm
+      -Check with:
+      -node -v
+      -npm -v
+
+      - Clone the GitMate Repository
+     ```
+      git clone https://github.com/Darshan2605/Git-Mate.git
+      cd Git-Mate
+     ```
+   
+      -In Cloned Folder
       ```
        chmod +x index.js
       ```
-   - Add your API key:
+
+      -Install Dependencies/Project Globally
+      ```
+       npm install -g .
+      ```
+      
+   - Set Gemini API Key Permanently on System
      ```
-      export GEMINI_API_KEY=your_api_key_here
+      Step A: Open .bashrc file (for Bash shell)
+      nano ~/.bashrc
+
+      Step B: Add your Gemini API key
+      Scroll to the bottom and add:
+      export GEMINI_API_KEY="your-gemini-api-key-here"
+
+      Step C: Save and apply changes
+      Save the file: Ctrl + X, then Y, then Enter
+
+      Step D: 
+      source ~/.bashrc
+   
      ```
 
 ## Usage
