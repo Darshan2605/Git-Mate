@@ -39,9 +39,15 @@ Git-Mate is a Node.js command-line application designed to help users convert na
    ```bash
    npx git-mate
    ```
+2. **Select Tool**:
+   ```bash
+   Git
+   Linux
+   Windows
+   ```
 
-2. **Follow the Prompts**:
-   - Enter your Git-related question.
+3. **Follow the Prompts**:
+   - Enter your Git/Linux/Windows-related question.
    - Confirm if you want to execute the generated command.
 
 ## Example
