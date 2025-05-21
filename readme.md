@@ -18,7 +18,7 @@ Git-Mate is a Node.js command-line application designed to help users convert na
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/Darshan2605/Git-Mate.git
-   cd git-mate
+   cd gitmate
    ```
 
 2. **Install Dependencies**:
@@ -37,7 +37,7 @@ Git-Mate is a Node.js command-line application designed to help users convert na
 
 1. **Run Git-Mate**:
    ```bash
-   npx git-mate
+   npx gitmate
    ```
 2. **Select Tool**:
    ```bash
