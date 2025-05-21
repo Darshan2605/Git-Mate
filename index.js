@@ -40,6 +40,6 @@ inquirer.prompt([
       console.log(chalk.green(`✅ Output:\n${stdout}`));
     });
   } else {
-    console.log(chalk.cyan("👍 You chose not to run the command."));
+    console.log(chalk.cyan("👍 You chose not to run the command. Thank You"));
   }
 });
