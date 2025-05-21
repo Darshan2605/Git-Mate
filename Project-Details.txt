@@ -1,3 +1,6 @@
+Node.js CLI project like Git-Mate
+
+
 Inquirer:
 Purpose: Inquirer is a library used to create interactive command-line interfaces. It provides a set of prompts that can be used to gather user input in a structured way.
 Use Cases: It's commonly used in CLI applications to ask users questions, confirm actions, or select options from a list.

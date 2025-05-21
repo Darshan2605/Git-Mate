@@ -21,10 +21,18 @@ Git-Mate is a Node.js command-line application designed to help users convert na
    cd gitmate
    ```
 
-2. **Install Dependencies**:
+2. **Install Globally**:
    ```bash
-   npm install
+   npm install -g .
    ```
+   ✅ Now you can run gitmate from anywhere in your terminal.
+   ✅It packages your project and installs it into the global node_modules folder.
+   ✅Any bin scripts in your package.json become globally available in your terminal.
+   Out bin script in package.json-
+   "bin": {
+    "gitmate": "./index.js"
+  }, //✅We can use "gitmate" command anywhere in our system to start our project.
+
 
 3. **Set Up Environment Variables**:
    - Create a `.env` file in the root directory.
@@ -33,11 +41,23 @@ Git-Mate is a Node.js command-line application designed to help users convert na
      GEMINI_API_KEY=your_api_key_here
      ```
 
+4. **For Windows OS--- Open Windows CMD/Powershell**:
+   - Add your API key:
+     ```
+      $env:GEMINI_API_KEY="Your_API_Key"
+     ```
+
+5. **For Linux OS--- Open Terminal**:
+   - Add your API key:
+     ```
+      export GEMINI_API_KEY=your_api_key_here
+     ```
+
 ## Usage
 
 1. **Run Git-Mate**:
    ```bash
-   npx gitmate
+   gitmate
    ```
 2. **Select Tool**:
    ```bash
