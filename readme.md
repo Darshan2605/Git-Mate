@@ -34,23 +34,53 @@ Git-Mate is a Node.js command-line application designed to help users convert na
   }, //✅We can use "gitmate" command anywhere in our system to start our project.
 
 
-3. **Set Up Environment Variables**:
-   - Create a `.env` file in the root directory.
-   - Add your API key:
+3. **For Windows OS--- Open Windows CMD/Powershell**:
+   - Permanently Set Environment Variable for Gemini API Key in Our Windows System:
      ```
-     GEMINI_API_KEY=your_api_key_here
+      [Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your-api-key-here", "User")
      ```
+     ✅We can use "gitmate" command in Powershell- anywhere in our system to start our project.
 
-4. **For Windows OS--- Open Windows CMD/Powershell**:
-   - Add your API key:
-     ```
-      $env:GEMINI_API_KEY="Your_API_Key"
-     ```
+4. **For Linux OS--- Open Terminal**:
+      - Pre-requisites
+      -Make sure the following are installed:
 
-5. **For Linux OS--- Open Terminal**:
-   - Add your API key:
+      -Node.js and npm
+      -Check with:
+      -node -v
+      -npm -v
+
+      - Clone the GitMate Repository
      ```
-      export GEMINI_API_KEY=your_api_key_here
+      git clone https://github.com/Darshan2605/Git-Mate.git
+      cd Git-Mate
+     ```
+   
+      -In Cloned Folder
+      ```
+       chmod +x index.js
+      ```
+
+      -Install Dependencies/Project Globally
+      ```
+       npm install -g .
+      ```
+      
+   - Set Gemini API Key Permanently on System
+     ```
+      Step A: Open .bashrc file (for Bash shell)
+      nano ~/.bashrc
+
+      Step B: Add your Gemini API key
+      Scroll to the bottom and add:
+      export GEMINI_API_KEY="your-gemini-api-key-here"
+
+      Step C: Save and apply changes
+      Save the file: Ctrl + X, then Y, then Enter
+
+      Step D: 
+      source ~/.bashrc
+   
      ```
 
 ## Usage
