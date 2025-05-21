@@ -34,21 +34,14 @@ Git-Mate is a Node.js command-line application designed to help users convert na
   }, //✅We can use "gitmate" command anywhere in our system to start our project.
 
 
-3. **Set Up Environment Variables**:
-   - Create a `.env` file in the root directory.
-   - Add your API key:
-     ```
-     GEMINI_API_KEY=your_api_key_here
-     ```
-
-4. **For Windows OS--- Open Windows CMD/Powershell**:
+3. **For Windows OS--- Open Windows CMD/Powershell**:
    - Permanently Set Environment Variable for Gemini API Key in Our Windows System:
      ```
       [Environment]::SetEnvironmentVariable("GEMINI_API_KEY", "your-api-key-here", "User")
      ```
      ✅We can use "gitmate" command in Powershell- anywhere in our system to start our project.
 
-5. **For Linux OS--- Open Terminal**:
+4. **For Linux OS--- Open Terminal**:
    - Add your API key:
      ```
       export GEMINI_API_KEY=your_api_key_here
