@@ -1,16 +1,16 @@
 # Git-Mate
 
-🚀 Welcome to **Git-Mate** - your friendly command-line assistant for generating and executing Git commands from natural language queries.
+🚀 Welcome to **Git-Mate** - your friendly command-line assistant for generating and executing Git, Linux, Windows commands from natural language queries.
 
 ## Overview
 
-Git-Mate is a Node.js command-line application designed to help users convert natural language questions into Git commands. It leverages an API to interpret user queries and generate the appropriate Git command, which can then be executed directly from the terminal.
+Git-Mate is a Node.js command-line application designed to help users convert natural language questions into Git, Linux, Windows commands. It leverages an API to interpret user queries and generate the appropriate Git command, which can then be executed directly from the terminal.
 
 ## Features
 
 - **Interactive CLI**: Uses `inquirer` to prompt users for input and confirmation.
-- **Command Generation**: Converts natural language queries into Git commands using an API.
-- **Command Execution**: Executes the generated Git commands directly in the terminal.
+- **Command Generation**: Converts natural language queries into Git, Linux, Windows commands using an API.
+- **Command Execution**: Executes the generated Git, Linux, Windows commands directly in the terminal.
 - **Stylish Output**: Utilizes `chalk` to enhance terminal output with colors.
 
 ## Installation
