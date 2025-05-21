@@ -83,5 +83,5 @@ if (confirm.execute) {
     }
   });
 } else {
-  console.log(chalk.cyan("👍 You chose not to run the command. Thank you for using Tech-Mate!"));
+  console.log(chalk.cyan("👍 You chose not to run the command. Thank you for using Git-Mate!"));
 }
