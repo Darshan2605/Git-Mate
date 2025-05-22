@@ -6,7 +6,7 @@ import { getCommand } from "./gemini.js";
 import { exec } from "child_process";
 import os from "os";
 
-console.log(chalk.blueBright("🚀 Welcome to Tech-Mate"));
+console.log(chalk.blueBright("🚀 Welcome to Git-Mate"));
 
 const { category } = await inquirer.prompt([
   {
